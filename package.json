@@ -5,9 +5,6 @@
   "packageManager": "pnpm@10.6.2",
   "description": "_description_",
   "author": "Will Cullen <will@itzcull.com>",
-  "license": "MIT",
-  "funding": "https://github.com/sponsors/itzcull",
-  "homepage": "https://github.com/itzcull/pkg-placeholder#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/itzcull/pkg-placeholder.git"
@@ -37,8 +34,8 @@
     "prepare": "simple-git-hooks"
   },
   "devDependencies": {
+    "@antfu/ni": "catalog:cli",
     "@itzcull/eslint-config": "catalog:cli",
-    "@itzcull/ni": "catalog:cli",
     "@itzcull/utils": "catalog:inlined",
     "@types/node": "catalog:types",
     "bumpp": "catalog:cli",
