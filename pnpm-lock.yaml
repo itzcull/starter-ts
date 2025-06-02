@@ -38,8 +38,8 @@ catalogs:
       version: 6.2.1
   inlined:
     '@itzcull/utils':
-      specifier: ^0.0.2
-      version: 0.0.2
+      specifier: ^0.0.5
+      version: 0.0.5
   testing:
     vitest:
       specifier: ^3.0.8
@@ -71,7 +71,7 @@ importers:
         version: 0.0.3(@typescript-eslint/utils@8.33.0(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(@vue/compiler-sfc@3.5.13)(eslint-import-resolver-node@0.3.9)(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2)(vitest@3.0.8(@types/debug@4.1.12)(@types/node@22.13.10)(jiti@2.4.2)(tsx@4.19.3)(yaml@2.7.0))
       '@itzcull/utils':
         specifier: catalog:inlined
-        version: 0.0.2
+        version: 0.0.5
       '@types/node':
         specifier: catalog:types
         version: 22.13.10
@@ -597,8 +597,8 @@ packages:
       svelte-eslint-parser:
         optional: true
 
-  '@itzcull/utils@0.0.2':
-    resolution: {integrity: sha512-OBa/AcAGWN83pviVsWou9adOquCKdIG4usx7GhdtoG1wrcpaPdH7PxR1QLk3nPW4hSs9RsFA9FRj+dO6z3P1lw==}
+  '@itzcull/utils@0.0.5':
+    resolution: {integrity: sha512-h8cW2aaEa5P/LO66zm/qT6h7qyzbZIIyDGob3sdkrIkKU/pFtwb+X2JZ4j7u6WkaiDc/5P52z2csd4dFfyCYfA==}
 
   '@jridgewell/sourcemap-codec@1.5.0':
     resolution: {integrity: sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==}
@@ -3199,7 +3199,7 @@ snapshots:
       - typescript
       - vitest
 
-  '@itzcull/utils@0.0.2': {}
+  '@itzcull/utils@0.0.5': {}
 
   '@jridgewell/sourcemap-codec@1.5.0': {}
 
