@@ -9,7 +9,7 @@ catalogs:
     '@itzcull/eslint-config': ^0.0.3
     bumpp: ^10.1.0
     eslint: ^9.22.0
-    lint-staged: ^15.5.0
+    lint-staged: ^16.0.0
     simple-git-hooks: ^2.11.1
     tsx: ^4.19.3
     typescript: ^5.8.2
