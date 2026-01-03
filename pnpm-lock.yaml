@@ -12,6 +12,9 @@ catalogs:
     '@itzcull/eslint-config':
       specifier: ^0.0.3
       version: 0.0.3
+    bumpp:
+      specifier: ^10.1.0
+      version: 10.2.0
     eslint:
       specifier: ^9.22.0
       version: 9.33.0
