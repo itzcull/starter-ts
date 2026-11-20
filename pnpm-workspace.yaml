@@ -4,6 +4,9 @@ packages:
   - packages/*
   - examples/*
 
+overrides:
+  vite@*: catalog:cli
+  vitest@*: catalog:testing
 catalog:
   lefthook: ^1.13.6
 
@@ -18,9 +21,10 @@ catalogs:
     tsx: ^4.21.0
     typescript: ^5.9.3
     unbuild: ^3.6.1
-    vite: ^7.3.1
+    vite: npm:@voidzero-dev/vite-plus-core@8.3.8000
+    vite-plus: 1.7.0
   testing:
-    vitest: ^3.2.4
+    vitest: 5.1.0
     vitest-package-exports: ^0.1.1
     yaml: ^2.8.2
   types:
@@ -31,3 +35,8 @@ catalogs:
 onlyBuiltDependencies:
   - esbuild
   - simple-git-hooks
+peerDependencyRules:
+  allowAny:
+    - vitest
+  allowedVersions:
+    vitest: '*'
