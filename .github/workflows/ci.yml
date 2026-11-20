@@ -3,11 +3,11 @@ name: CI
 on:
   push:
     branches:
-      - main
+      - master
 
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   lint:
@@ -50,4 +50,4 @@ jobs:
       - run: pnpm i -g @antfu/ni
       - run: nci
       - run: nr build
-      - run: nr test
+      - run: nr test --run
